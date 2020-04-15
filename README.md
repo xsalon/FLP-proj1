@@ -26,38 +26,38 @@ Format of class: `([Index],[State])`
 After classes creation, sorting in traversal order is required. After that, index of given class in list of classes represents its name (or actual new state of minimal DFA). New DFA is created from data in ordered classes list.
 
 ## Example
-INPUT:
-`1,2,3,4,5,6`
-`ab` 
-`1`
-`1,6`
-`1,a,6`
-`1,b,2`
-`2,a,5`
-`2,b,4`
-`3,a,3`
-`3,b,6`
-`4,a,4`
-`4,b,1`
-`5,a,2`
-`5,b,3`
-`6,a,1`
-`6,b,5`
-CLASSES:
-`[([0,1],["1","6"]),`
-`([1,2],["2","5"]),`
-`([2,0],["4","3"])]`
-OUTPUT:
-`0,1,2`
-`ab`
-`0`
-`0`
-`0,a,0`
-`0,b,1`
-`1,a,1`
-`1,b,2`
-`2,a,2`
-`2,b,0`
+INPUT: <br>
+`1,2,3,4,5,6` <br>
+`ab` <br>
+`1` <br>
+`1,6` <br>
+`1,a,6` <br>
+`1,b,2` <br>
+`2,a,5` <br>
+`2,b,4` <br>
+`3,a,3` <br>
+`3,b,6` <br>
+`4,a,4` <br>
+`4,b,1` <br>
+`5,a,2` <br>
+`5,b,3` <br>
+`6,a,1` <br>
+`6,b,5` <br>
+CLASSES: <br>
+`[([0,1],["1","6"]),` <br>
+`([1,2],["2","5"]),` <br>
+`([2,0],["4","3"])]` <br>
+OUTPUT: <br>
+`0,1,2` <br>
+`ab` <br>
+`0` <br>
+`0` <br>
+`0,a,0` <br>
+`0,b,1` <br>
+`1,a,1` <br>
+`1,b,2` <br>
+`2,a,2` <br>
+`2,b,0` <br>
 
 # How to run
 ## Compilation
@@ -74,3 +74,6 @@ Unknown
 
 # Author
 Marek Salon (xsalon00)
+
+# Points
+12/12
